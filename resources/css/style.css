@@ -4,11 +4,34 @@ header {
   font-weight: bold;
 }
 
-span {
+.flex-container {
+  display: flex;
+}
+
+.header-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  align-items: center;
+}
+
+.brand-name {
   color: MediumAquamarine;
+  align-items: center;
+}
+
+.navigation {
+  width: 400px;
+  justify-content: space-around;
 }
 
 nav ul li a {
   display: inline-block;
   color: Black;
+}
+
+nav ul li {
+  list-style: none;
 }

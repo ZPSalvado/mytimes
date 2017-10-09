@@ -20,6 +20,7 @@ header {
 .brand-name {
   color: MediumAquamarine;
   align-items: center;
+  margin-left: 5px;
 }
 
 .navigation {
@@ -34,4 +35,32 @@ nav ul li a {
 
 nav ul li {
   list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: underline;
+
+}
+
+.main-story {
+  background-image: url("./../resources/img/mainstory.png");
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  height: 300px;
+}
+
+.column {
+  margin-right: 20px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
